@@ -71,6 +71,7 @@ func New(version string) func() *schema.Provider {
 				},
 			},
 			DataSourcesMap: map[string]*schema.Resource{
+				"oras_artifact":      dataSourceOrasArtifact(),
 				"oras_artifact_file": dataSourceOrasArtifactFile(),
 			},
 			ResourcesMap: map[string]*schema.Resource{},
