@@ -3,7 +3,7 @@ module github.com/jsiebens/terraform-provider-oras
 go 1.18
 
 require (
-	github.com/docker/cli v20.10.21+incompatible
+	github.com/docker/cli v20.10.22+incompatible
 	github.com/hashicorp/terraform-plugin-docs v0.13.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.24.1
 	github.com/mitchellh/go-homedir v1.1.0
@@ -20,7 +20,6 @@ require (
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
-	github.com/docker/docker v20.10.21+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
