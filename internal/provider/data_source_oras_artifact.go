@@ -45,7 +45,10 @@ func dataSourceOrasArtifactRead(ctx context.Context, d *schema.ResourceData, met
 		return diag.FromErr(err)
 	}
 
-	dst := file.New(outputPath)
+	dst, err := file.New(outputPath)
+	if err != nil {
+		return diag.FromErr(err)
+	}
 
 	desc, err := oras.Copy(ctx, src, repo.Reference.Reference, dst, repo.Reference.Reference, oras.DefaultCopyOptions)
 	if err != nil {
