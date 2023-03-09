@@ -1,6 +1,6 @@
 module github.com/jsiebens/terraform-provider-oras
 
-go 1.18
+go 1.20
 
 require (
 	github.com/docker/cli v20.10.21+incompatible
