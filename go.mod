@@ -9,7 +9,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0-rc2
-	oras.land/oras-go/v2 v2.0.0
+	oras.land/oras-go/v2 v2.1.0
 )
 
 require (
