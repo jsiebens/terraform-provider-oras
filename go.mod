@@ -3,7 +3,7 @@ module github.com/jsiebens/terraform-provider-oras
 go 1.20
 
 require (
-	github.com/docker/cli v20.10.21+incompatible
+	github.com/docker/cli v24.0.2+incompatible
 	github.com/hashicorp/terraform-plugin-docs v0.14.1
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1
 	github.com/mitchellh/go-homedir v1.1.0
